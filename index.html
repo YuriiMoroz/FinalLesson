@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="timer">
+        <h2>1:00</h2>
+    </div>
+    <div class="btns">
+        <button id="btnStart">Start game!</button>
+        <button id="btnCheck" disabled="">Check result</button>
+        <button id="btnNew">New game</button>
+    </div>
+    <div class="container">
+        <div id="start" class="number-box">
+            <div class="number num1"></div>
+            <div class="number num2"></div>
+            <div class="number num3"></div>
+            <div class="number num4"></div>
+            <div class="number num5"></div>
+            <div class="number num6"></div>
+            <div class="number num7"></div>
+            <div class="number num8"></div>
+            <div class="number num9"></div>
+            <div class="number num10"></div>
+            <div class="number num11"></div>
+            <div class="number num12"></div>
+            <div class="number num13"></div>
+            <div class="number num14"></div>
+            <div class="number num15"></div>
+            <div class="number num16"></div>
+        </div>
+        <div id="end" class="number-box">
+            <div class="part"></div>
+            <div class="part"></div>
+            <div class="part"></div>
+            <div class="part"></div>
+            <div class="part"></div>
+            <div class="part"></div>
+            <div class="part"></div>
+            <div class="part"></div>
+            <div class="part"></div>
+            <div class="part"></div>
+            <div class="part"></div>
+            <div class="part"></div>
+            <div class="part"></div>
+            <div class="part"></div>
+            <div class="part"></div>
+            <div class="part"></div>
+        </div>
+    </div>
+    <div class="modal-container">
+        <div id="modal">
+            <div class="text">
+                <p>You still have time, you sure?<span class="time">0:55</span></p>
+            </div>
+            <div class="modal-btns">
+                <button class="modal-btn" id="close">Close</button>
+                <button class="modal-btn" id="check">Check</button>
+            </div>
+        </div>
+    </div>
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
